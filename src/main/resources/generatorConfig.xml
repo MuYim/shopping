@@ -25,12 +25,12 @@
                              targetPackage="com.ykx.shop.mapper"
                              targetProject="./src/main/java">
         </javaClientGenerator>
-        <table tableName="shop" domainObjectName="Shop"
+        <table tableName="clientuser" domainObjectName="User"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
-        <table tableName="user" domainObjectName="User"
+        <table tableName="shop" domainObjectName="Shop"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">

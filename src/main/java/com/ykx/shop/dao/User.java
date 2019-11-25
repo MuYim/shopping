@@ -1,44 +1,36 @@
 package com.ykx.shop.dao;
 
-import java.util.Date;
-
 public class User {
-    private Integer userId;
+    private Integer id;
 
-    private Integer identityId;
-
-    private String username;
+    private String count;
 
     private String password;
 
-    private String openid;
+    private String email;
 
-    private Date createTime;
+    private String name;
 
-    private Date updateTime;
+    private String zhiwen;
 
-    public Integer getUserId() {
-        return userId;
+    private String face;
+
+    private String phone;
+
+    public Integer getId() {
+        return id;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public Integer getIdentityId() {
-        return identityId;
+    public String getCount() {
+        return count;
     }
 
-    public void setIdentityId(Integer identityId) {
-        this.identityId = identityId;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+    public void setCount(String count) {
+        this.count = count == null ? null : count.trim();
     }
 
     public String getPassword() {
@@ -49,27 +41,43 @@ public class User {
         this.password = password == null ? null : password.trim();
     }
 
-    public String getOpenid() {
-        return openid;
+    public String getEmail() {
+        return email;
     }
 
-    public void setOpenid(String openid) {
-        this.openid = openid == null ? null : openid.trim();
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public String getName() {
+        return name;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setName(String name) {
+        this.name = name == null ? null : name.trim();
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
+    public String getZhiwen() {
+        return zhiwen;
     }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setZhiwen(String zhiwen) {
+        this.zhiwen = zhiwen == null ? null : zhiwen.trim();
+    }
+
+    public String getFace() {
+        return face;
+    }
+
+    public void setFace(String face) {
+        this.face = face == null ? null : face.trim();
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone == null ? null : phone.trim();
     }
 }
